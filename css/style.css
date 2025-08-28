@@ -35,3 +35,15 @@ body {
     vertical-align: middle;
     font-size: 18px;
 }
+
+#tentang {
+    background: linear-gradient(to bottom right, #fff 0%, #e5a000 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-qoute {
+    border-left: 6px solid #fbbf24; /* kuning */
+    padding-left: 15px;
+    margin-bottom: 20px;
+}

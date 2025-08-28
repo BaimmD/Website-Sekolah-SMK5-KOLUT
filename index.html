@@ -131,12 +131,59 @@
             </div>
 
     <!-- Dekorasi Gambar Bawah -->
-            <div class="float-right">
-                    <img src="./img/fireworks.svg" alt="Dekorasi Gambar Bawah" class="position-absolute" style="width: 120px; height: 200; z-index: 0;">
+    <section style="position: relative; height: 100vh;">
+        <div class="float-right">
+            <img src="./img/fireworks.svg" alt="Dekorasi Gambar Bawah" class="position-absolute" style="width: 120px; height: auto; z-index: 0; position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%);">
+        </div>
+    </section>
+
+<!-- Section Tentang -->
+<section id="tentang" class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Bagian Kiri (Ilustrasi + Card Alumni) -->
+            <div class="col-lg-6 mb-4 mb-lg-0 text-center position-relative">
+                <img src="./img/avatar.svg" alt="Ilustrasi Siswa" class="img-fluid" style="max-width: 350px;">
+
+                <!-- Card Alumni -->
+                <div class="card shadow position-absolute" style="bottom: -20px; left: 50%; transform: translateX(-50%); width: 80%;">
+                    <div class="card-body p-3 text-left">
+                        <h6 class="mb-1 font-weight-bold">Jumlah Alumni Siswa: 100K</h6>
+                        <p class="mb-2">Alumni yang berprestasi sebanyak <span class="text-warning font-weight-bold">100K</span></p>
+                        <div class="d-flex align-items-center">
+                            <span class="material-icons">account_circle</span>
+                            <span class="material-icons">account_circle</span>
+                            <span class="material-icons">account_circle</span>
+                            <span class="mr-3">100k orang</span>
+                            <span class="text-warning">⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-    </section>
-    <!-- jquery -->
+
+            <!-- Bagian Kanan (Tentang Kami) -->
+            <div class="col-lg-6">
+                <span class="badge badge-light rounded-lg mb-2 px-3 py-2">
+                    <span class="material-icons text-warning">folder</span> Tentang Kami
+                </span>
+                <h3 class="font-weight-bold">SMK 5 KOLUT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam harum qui, eos eaque iusto repudiandae, enim aspernatur rem praesentium voluptates reiciendis a provident quo quae, expedita perferendis atque et. Culpa!</p>
+                <div class="row">
+                    <div class="col-6">
+                        <p><span class="material-icons">check_circle</span> Jaringan</p>
+                        <p><span class="material-icons">check_circle</span> Multimedia</p>
+                    </div>
+                    <div class="col-6">
+                        <p><span class="material-icons">check_circle</span> Otomotif</p>
+                        <p><span class="material-icons">check_circle</span> Agribisnis</p>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-dark mt-2">Selengkapnya</a>
+            </div>
+        </div>
+    </div>
+</section>
+
         <script src="js/jquery.min.js"></script>
     <!-- js -->
         <script src="./js/bootstrap.bundle.min.js"></script>
