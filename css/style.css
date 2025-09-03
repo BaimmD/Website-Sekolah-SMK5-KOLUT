@@ -47,3 +47,10 @@ body {
     padding-left: 15px;
     margin-bottom: 20px;
 }
+
+.footer {
+    background-image: url(../img/rhombus\ grid2.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+}
